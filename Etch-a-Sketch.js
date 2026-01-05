@@ -99,7 +99,7 @@ clearBtn.onclick = (_) => {
     constructGrid(gridSize = prompt(
         "How many squares per side do you want?", "16"
     ));
-    activateBrush();
+    activateBrush()
 }
 
 function clearCanvas() {
