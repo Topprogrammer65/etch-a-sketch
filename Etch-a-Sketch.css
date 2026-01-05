@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background: url("images/95.jpg");
+    margin: 0;
+}
+
+.gridDiv:hover {
+    cursor: pointer;
+}
+
+label:after { 
+    content: ":";
+}
+
+button, select {
+    font-size: 15px;
+    padding: 7px;
+    margin: 10px 40px;
+}
+
+select {
+    margin-left: 0;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
